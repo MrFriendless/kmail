@@ -148,6 +148,9 @@ add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x060000)
 add_definitions(-DQT_NO_FOREACH)
 set(CMAKE_CXX_STANDARD 14)
 add_subdirectory(src)
+
+//my change
+
 add_subdirectory(agents)
 add_subdirectory(ktnef)
 add_subdirectory(kmail-refresh-settings)
@@ -155,4 +158,3 @@ install(FILES kmail.renamecategories kmail.categories  DESTINATION  ${KDE_INSTAL
 
 add_subdirectory(doc)
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
-
