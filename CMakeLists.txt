@@ -151,6 +151,8 @@ add_subdirectory(src)
 
 //my change
 
+//my second change
+
 add_subdirectory(agents)
 add_subdirectory(ktnef)
 add_subdirectory(kmail-refresh-settings)
